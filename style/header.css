@@ -1,0 +1,25 @@
+header {
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 9999;
+}
+header, header .content {
+	background-color: #637762;
+}
+header .box{
+	background-color: transparent;
+}
+header .box a {
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: double;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 40px;
+}

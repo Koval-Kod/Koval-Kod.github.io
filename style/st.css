@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lobster+Two:wght@700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.content {
+    background-color: #65e58e;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.row {
+    display: flex;
+}
+.box {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    max-height: 300px;
+    max-width: 300px;
+    background-color: white;
+}
+
+.link {
+    color:#f11615;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: double;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.link:hover {
+    color:#bf1922;
+    background-color: #f3eb19;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
